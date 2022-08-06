@@ -1,0 +1,20 @@
+<section>
+    <table class="demo">
+        <thead>
+        <tr>
+            <th>Capa</th>
+            <th>Nome</th>
+            <th>Categoria</th>
+            <th>Código</th>
+        </tr>
+        </thead>
+        <tbody *ngFor="let livro of livros">
+        <tr>
+            <td class="tdImg"><img [src]="livro.imagem"></td>
+            <td>{{livro.nome}}</td>
+            <td>{{livro.categoria}}</td>
+            <td>{{livro.codigo}}</td>
+        </tr>
+        </tbody>
+    </table>
+</section>

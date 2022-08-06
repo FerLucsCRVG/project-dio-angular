@@ -1,0 +1,35 @@
+section{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:5px;
+}
+.demo {
+    width:50%;
+    height:80%;
+    border:1px solid #C0C0C0;
+    border-collapse:collapse;
+    padding:5px;
+}
+.demo th {
+    border:1px solid #C0C0C0;
+    padding:5px;
+    background:#F0F0F0;
+}
+.demo td {
+    border:1px solid #C0C0C0;
+    padding:5px;
+}
+td{
+    text-align:center;
+}
+td img{
+    width:70px;
+    height:70px;
+}
+.tdImg{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

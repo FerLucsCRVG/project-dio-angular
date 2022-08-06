@@ -1,0 +1,21 @@
+header{
+    width:100%;
+    border:2px solid black;
+    padding:5px;
+    display:flex;
+    justify-content:space-around;
+}
+header img{
+    width:180px;
+}
+.menu-inicial{
+    width:40%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    color:purple;
+    font-size:30px;
+}
+.menu-inicial a{
+    cursor:pointer;
+}
